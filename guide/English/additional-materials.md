@@ -25,6 +25,14 @@ You can also find a list of dedicated ARM software [at this link](https://armrep
 
 ##### Finished!
 
+## Toggling USB host mode
+> [!Warning]
+> Disable USB host mode if you use a poweref USB hub, as this can irreversibly damage your device. If you don't use a powered USB hub, enable USB host mode or you will not be able to use any USB devices.
+
+Run [USB Host Control](https://github.com/Misha803/My-Scripts/releases/tag/USB-Host-Mode-Control) to enable/disable USB host mode, confirm that you want to disable/enable USB host mode
+
+##### Finished!
+
 ## Disable secureboot
 > [!Warning]
 > Do it only if necessary!
