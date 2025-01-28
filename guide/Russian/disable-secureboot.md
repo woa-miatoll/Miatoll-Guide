@@ -11,7 +11,7 @@
 
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (Вам не нужен secureboot disabled)
+- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 ## Плюсы и минусы secureboot
 > По умолчанию secureboot включен в этом гайде.
 

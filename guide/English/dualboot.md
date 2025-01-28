@@ -5,9 +5,9 @@
 ## Dualbooting Android and Windows seamlessly
 
 ### Prerequisites
-- [UEFI image](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
+- [```UEFI image```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 
-- [WOA Helper app](https://github.com/n00b69/woa-helper/releases/tag/APK)
+- [```WOA Helper app```](https://github.com/n00b69/woa-helper/releases/tag/APK)
 
 ## Setting up the dualboot app
 > This guide assumes you are rooted, if you aren't, do this first.

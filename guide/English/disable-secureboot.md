@@ -9,7 +9,7 @@
 ### Prerequisites
 - [```Android platform tools```](https://developer.android.com/studio/releases/platform-tools)
 
-- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest) (You don't need disable secureboot)
+- [```UEFI```](https://github.com/woa-miatoll/Miatoll-Releases/releases/latest)
 
 - ```Brain (Very important)```
 
