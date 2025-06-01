@@ -18,7 +18,7 @@
 - Open the WOA Helper app and use the **STA CREATOR** in **WOA TOOLBOX**.
 > [!Important]
 > If mounting does not work, go to preferences (the ⚙️ icon) and select `Mount to /mnt instead of /sdcard`
-> 
+>
 > If mounting still does not work, your rom does not support mounting and you will have to make a boot.img backup inside the app, then copy it manually to Windows once you boot to it (for example by uploading it somewhere and then downloading it while booted into Windows). The same applies to the StA files, which are also generated in your internal storage.
 >
 > Do the same thing if the folder is read-only.
@@ -45,12 +45,3 @@
 > You can use the **BACK UP BOOT IMAGE** feature in the WOA Helper app to do so.
 
 ## Finished!
-
-
-
-
-
-
-
-
-

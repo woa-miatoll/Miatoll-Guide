@@ -80,18 +80,3 @@ adb reboot
 ```
 
 ## [Last step: Setting up dualboot](dualboot.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

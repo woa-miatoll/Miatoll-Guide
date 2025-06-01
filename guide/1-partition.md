@@ -25,7 +25,7 @@
 > Download **platform-tools** and extract the folder somewhere, then open CMD as an **administrator**.
 >
 > It is recommended to keep this window open and use it throughout the entire guide.
-> 
+>
 > Replace `path\to\platform-tools` with the actual path to the platform-tools folder, for example **C:\platform-tools**.
 ```cmd
 cd path\to\platform-tools
@@ -38,12 +38,12 @@ fastboot flash recovery path\to\ofox.img reboot recovery
 ```
 
 ### Partitioning your device
-> There are two methods to partition your device. Please select the method you would like to use below. 
+> There are two methods to partition your device. Please select the method you would like to use below.
 
-#### Method 1: Manual partitioning 
+#### Method 1: Manual partitioning
 
 <details>
-  <summary><strong>Click here for method 1</strong></summary> 
+  <summary><strong>Click here for method 1</strong></summary>
 
 #### Opening a shell
 ```cmd
@@ -51,7 +51,6 @@ adb shell
 ```
 
 ### Preparing for partitioning
-$${\color{lightblue}🟦 Note}$$
 > If at any moment in parted you see an error prompting you to type "Yes/No" or "Ignore/Cancel", type `Yes` or `Ignore` depending on the situation to ignore the errors and continue.
 >
 > If you see any **udevadm** errors, you can ignore these as well.
@@ -63,21 +62,21 @@ parted /dev/block/sda
 > Parted will print the list of partitions, userdata should be the last partition in the list
 ```cmd
 print
-``` 
+```
 
 #### Removing userdata
 > Replace **$** with the number of the **userdata** partition, which should be **18**
 ```cmd
 rm $
-``` 
+```
 
 #### Recreating userdata
 > Replace **10.9GB** with the former start value of **userdata** which we just deleted (it will most likely be 10.9GB)
-> 
+>
 > Replace **70GB** with the end value you want **userdata** to have. In this example your available usable space in Android will be 70GB-10.9GB = **59GB**
 ```cmd
 mkpart userdata ext4 10.9GB 70GB
-``` 
+```
 
 #### Creating ESP partition
 > Replace **70GB** with the end value of **userdata**
@@ -85,28 +84,28 @@ mkpart userdata ext4 10.9GB 70GB
 > Replace **70.3GB** with the value you used before, adding **0.3GB** to it
 ```cmd
 mkpart esp fat32 70GB 70.3GB
-``` 
+```
 
 #### Creating Windows partition
 > Replace **70.3GB** with the end value of **esp**
 ```cmd
 mkpart win ntfs 70.3GB -0MB
-``` 
+```
 
 #### Making ESP bootable
 > Use `print` to see all partitions. Replace "$" with your ESP partition number, which should be **19**
 ```cmd
 set $ esp on
-``` 
+```
 
 #### Exit parted
 ```cmd
 quit
-``` 
+```
 
 ### Formatting data
 - Format all data in OFOX, or Android will not boot.
-- ( Go to Wipe > Format data > type yes ) 
+- ( Go to Wipe > Format data > type yes )
 
 #### Check if Android still starts
 - Just restart the phone, and see if Android still works.
@@ -120,14 +119,14 @@ adb shell format
 
 </details>
 
-#### Method 2: Automatic partitioning 
+#### Method 2: Automatic partitioning
 
 <details>
-  <summary><strong>Click here for method 2</strong></summary> 
+  <summary><strong>Click here for method 2</strong></summary>
 
 ### Run the partitioning script
 > Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
-> 
+>
 > If it asks you to run it once again, do so
 ```sh
 adb shell partition $
@@ -140,19 +139,3 @@ adb shell partition $
 </details>
 
 ## [Next step: Installing Windows](2-install.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

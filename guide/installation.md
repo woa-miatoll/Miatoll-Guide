@@ -10,4 +10,3 @@ There are two methods to install Windows. Select the method you would like to us
 | - Simple and quick | - Complicated for inexperienced users
 | - Lack of options in regards to OS version, language, edition, storage allocation | - Highly customizable in regards to OS version, language, edition, storage allocation                           |
 | [FFU guide](ffu.md)                        | [Manual guide](1-partition.md)   |
-

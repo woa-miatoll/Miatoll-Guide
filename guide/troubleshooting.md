@@ -13,7 +13,7 @@ If mounting Windows produces an empty folder, you either don't have Windows inst
 ## Cannot write to Windows in Android
 > This is caused by shutting down Windows instead of restarting it.
 - To solve this, boot to Windows and then press "restart", then as the screen shuts off boot to TWRP and from there load up Android.
-- Or, disable hibernation in Windows using [this](https://github.com/n00b69/woa-beryllium/releases/tag/1.0) script 
+- Or, disable hibernation in Windows using [this](https://github.com/n00b69/woa-beryllium/releases/tag/1.0) script
 > Alternatively, if you have already set up the Switch to Android app, simply use this to switch to Android.
 
 ##### Finished!
@@ -63,21 +63,3 @@ This is caused by partitions with volume names the bootloader cannot handle, to 
 - Turn display off and on
 
 ##### Finished!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

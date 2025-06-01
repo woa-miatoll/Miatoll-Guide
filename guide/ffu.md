@@ -2,7 +2,7 @@
 
 # Running Windows on the Redmi Note 9 Pro / 9 Pro India / 10 Lite / 9S / 9 Pro max India / Poco M2 Pro
 
-## Windows Installation 
+## Windows Installation
 
 ### Prerequisites
 - A device running Windows 10 or higher
@@ -18,9 +18,9 @@
 > DO NOT REBOOT YOUR PHONE if you think you made a mistake, ask for help in the [Telegram chat](https://t.me/woamiatoll)
 
 ### Install WOA Device Manager
-- Download **WOA Device Manager** and extract the file's contents somewhere. 
+- Download **WOA Device Manager** and extract the file's contents somewhere.
 
-- Open the **Install.cmd** file and follow the on-screen instructions, then open WOA Device Manager. 
+- Open the **Install.cmd** file and follow the on-screen instructions, then open WOA Device Manager.
 
 ### Booting into FFU mode
 - Plug your phone into your computer while booted in Android and press **Manual Mode** (the rotation icon on the left) in WOA Device Manager.
@@ -30,7 +30,7 @@
 - In the newly opened menu, click **Switch to Windows-mode**, then hold the **volume down** button until the QR code and wrench icons appear on the screen.
 
 ### Flashing the FFU Image
-- Click on **Flash** (the wrench icon on the left) in WOA Device Manager, then select your FFU file and click **Flash FFU Image**. 
+- Click on **Flash** (the wrench icon on the left) in WOA Device Manager, then select your FFU file and click **Flash FFU Image**.
 
 - Wait until the FFU image has flashed and the green check mark appears, after which your phone should boot back into Android.
 

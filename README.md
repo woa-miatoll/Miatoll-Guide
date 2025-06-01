@@ -14,22 +14,22 @@ This project is in development stage, all the files here have been contributed b
 > **PLEASE DON'T USE VIDEO GUIDES ON YOUTUBE OR ANY OTHER PLATFORM! THESE VIDEOS ARE OUTDATED AND YOU CAN BRICK YOUR DEVICE USING THEM!**
 
 ## Get started
-- [Project status](guide/English/status.md)
+- [Project status](guide/status.md)
 
-- [Installation instructions](guide/English/installation.md)
+- [Installation instructions](guide/installation.md)
 
-- [Troubleshooting](guide/English/troubleshooting.md)
+- [Troubleshooting](guide/troubleshooting.md)
 
 ## Miscellaneous
-- [Dualboot setup](guide/English/dualboot.md)
+- [Dualboot setup](guide/dualboot.md)
 
-- [Additional materials](guide/English/additional-materials.md)
+- [Additional materials](guide/additional-materials.md)
 
-- [Driver updating instructions](guide/English/update.md)
+- [Driver updating instructions](guide/update.md)
 
-- [Reinstall instructions](guide/English/reinstall.md)
+- [Reinstall instructions](guide/reinstall.md)
 
-- [Uninstall instructions](guide/English/restore-stock.md)
+- [Uninstall instructions](guide/restore-stock.md)
 
 ## Contributors
 [<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)

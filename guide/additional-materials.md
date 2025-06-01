@@ -49,13 +49,3 @@
 - Follow the instructions by Massgravel [here](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 #### Finished!
-
-
-## Disable secureboot
-> [!Warning]
-> Do it only if necessary!
-
-> [Guide to disabling secureboot](disable-secureboot.md)
-
-#### Finished!
-
