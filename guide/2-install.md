@@ -27,7 +27,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINMIATOLL**
+> Use `list volume` to find it, replace "$" with the actual number of **MainOS**
 ```diskpart
 select volume $
 ```
@@ -38,7 +38,7 @@ assign letter x
 ```
 
 #### Select the ESP volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **ESPMIATOLL**
+> Use `list volume` to find it, replace "$" with the actual number of **EFIESP**
 ```diskpart
 select volume $
 ```
@@ -67,7 +67,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WINMIATOLL** (which should be X), then press enter
+> If it asks you to enter a letter, enter the drive letter of **MainOS** (which should be X), then press enter
 
 #### Create Windows bootloader files
 ```cmd

@@ -8,19 +8,19 @@
 | Feature                | Notes                                           | Status         |
 |------------------------|-------------------------------------------------|----------------|
 | ⌨️ Side buttons        |                                                 | ✅            |
-| ♋ Cellular Calls      |                                                 | ❌            |
-| ♋ Cellular Data       | SIM card must be in SIM1                        | ✅            |
-| ♋ Cellular Texts      | SIM card must be in SIM1                        | ✅            |
-| ♋ Wifi                |                                                 | ✅            |
+| 📞 Cellular Calls      |                                                 | ❌            |
+| 📶 Cellular Data       | SIM card must be in SIM1                        | ✅            |
+| 💬 SMS                 | SIM card must be in SIM1                        | ✅            |
+| 🛜 Wifi                |                                                 | ✅            |
 | 📦 UFS                 |                                                 | ✅            |
 | 🔵 Bluetooth           |                                                 | ✅            |
 | 🎆 GPU                 |                                                 | ✅            |
 | 🔋 Battery             | Inaccurate                                      | ⚠️            |
-| 📌 GPS                 |                                                 | ✅            |
+| 🛰️ GPS                 |                                                 | ✅            |
 | 🪵 USB                 |                                                 | ✅            |
-| 🔊 Audio               |                                                 | ✅            |
+| 🔊 Audio               |                                                 | ⚠️            |
 | 🧭 Sensor              |                                                 | ✅            |
-| 🛡️ TPM                 |                                                 | ❌            |
+| 🛡️ TPM                 | Doesn't support versions below Windows 11 22H2  | ✅            |
 | 👆 Touch               |                                                 | ✅            |
 | 🔌 Charge              |                                                 | ❌            |
 | 📳 Vibration motor     |                                                 | ❌            |
@@ -35,7 +35,7 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🔉 Audio Speaker       |                                             | ❌            |
+| 🔉 Audio Speaker       |                                             | ✅            |
 | 🔉 Handset  Speaker    |                                             | ❌            |
 | 🔉 AUX                 |                                             | ❌            |
 | 🎙️ Internal Top Mic    |                                             | ❌            |
@@ -45,11 +45,11 @@
 
 | Feature                | Notes                                       | Status         |
 |------------------------|---------------------------------------------|----------------|
-| 🧭 Accelerometer       |                                             | ❌            |
-| 🧭 Gyroscope           |                                             | ❌            |
-| 🧭 Light sensor        |                                             | ❌            |
-| 🧭 Magnetometer        |                                             | ❌            |
-| 🧭 Proximity           |                                             | ❌            |
+| 🧭 Accelerometer       |                                             | ✅            |
+| 🧭 Gyroscope           |                                             | ✅            |
+| 🧭 Light sensor        |                                             | ✅            |
+| 🧭 Magnetometer        |                                             | ✅            |
+| 🧭 Proximity           |                                             | ✅            |
 
 ## 🎆 GPU
 
@@ -57,3 +57,4 @@
 |------------------------|-------------------------------------|----------------|
 | 📲 Brightness control  |                                     | ✅            |
 | 🎆 X64 simulation      |                                     | ✅            |
+| 🌋 Vulkan API          |                                     | ❌            |

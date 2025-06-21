@@ -23,7 +23,7 @@ diskpart
 ```
 
 #### Select the Windows volume of the phone
-> Use `list volume` to find it, replace "$" with the actual number of **WINMIATOLL**
+> Use `list volume` to find it, replace "$" with the actual number of **MainOS**
 ```diskpart
 select volume $
 ```
@@ -39,7 +39,7 @@ exit
 ```
 
 #### Formatting Windows
-> Go to Windows Explorer > This PC and select **WINMIATOLL**. Right click and format as NTFS.
+> Go to Windows Explorer > This PC and select **MainOS**. Right click and format as NTFS.
 
 ### Installing Windows
 > Replace `<path\to\install.esd>` with the actual path of install.esd (it may also be named install.wim)
@@ -52,7 +52,7 @@ dism /apply-image /ImageFile:<path\to\install.esd> /index:6 /ApplyDir:X:\
 ### Installing Drivers
 > Unpack the driver archive, then open the `OfflineUpdater.cmd` file
 
-> If it asks you to enter a letter, enter the drive letter of **WINMIATOLL** (which should be X), then press enter
+> If it asks you to enter a letter, enter the drive letter of **MainOS** (which should be X), then press enter
 
 > If any errors appear under **Installing App Packages**, ignore them and continue
 
