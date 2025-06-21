@@ -125,12 +125,24 @@ adb shell format
   <summary><strong>Click here for method 2</strong></summary>
 
 ### Run the partitioning script
-> Replace **$** with the amount of storage you want Windows to have (do not add GB, just write the number)
->
-> If it asks you to run it once again, do so
-```sh
-adb shell partition $
+```cmd
+adb shell
 ```
+
+- Run the partitioning script `If it asks you to run it once again, do so`
+
+```cmd
+partition
+```
+
+- Exit adb shell
+
+```cmd
+exit
+```
+### Formatting data
+
+- Format data in OFOX, or Android will not boot.
 
 ### Check if Android still starts
 - Just restart the phone, and see if Android still works.
